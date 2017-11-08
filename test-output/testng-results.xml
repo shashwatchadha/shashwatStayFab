@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="168379" started-at="2017-11-08T11:04:56Z" finished-at="2017-11-08T11:07:44Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="168379" started-at="2017-11-08T11:04:56Z" finished-at="2017-11-08T11:07:44Z">
+      <class name="TestCases.ValidatePayAtHotel">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCases.ValidatePayAtHotel@6e06451e]" name="beforeClass" is-config="true" duration-ms="34070" started-at="2017-11-08T16:35:46Z" finished-at="2017-11-08T16:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="verifyPayments(java.util.HashMap)[pri:0, instance:TestCases.ValidatePayAtHotel@6e06451e]" name="verifyPayments" duration-ms="79409" started-at="2017-11-08T16:36:21Z" data-provider="data" finished-at="2017-11-08T16:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Coupon=FH15P, Email=shash@gmail.com, CheckInDate=30-March-2018, FullName=Shashwat chadha, HotelName=Marble, PhoneNUmber=9857487616, Location=Delhi}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPayments -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:TestCases.ValidatePayAtHotel@6e06451e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-08T16:36:21Z" finished-at="2017-11-08T16:36:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.ValidatePayAtHotel.verifyPayments(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestCases.ValidatePayAtHotel@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-08T16:37:40Z" finished-at="2017-11-08T16:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPayments status=SUCCESS method=ValidatePayAtHotel.verifyPayments(java.util.HashMap)[pri:0, instance:TestCases.ValidatePayAtHotel@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCases.ValidatePayAtHotel@6e06451e]" name="afterClass" is-config="true" duration-ms="4103" started-at="2017-11-08T16:37:40Z" finished-at="2017-11-08T16:37:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCases.ValidatePayAtHotel -->
+      <class name="TestCases.SetDate">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestCases.SetDate@72d818d1]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2017-11-08T16:34:56Z" finished-at="2017-11-08T16:34:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCases.SetDate@72d818d1]" name="beforeClass" is-config="true" duration-ms="27153" started-at="2017-11-08T16:34:56Z" finished-at="2017-11-08T16:35:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="setCheckInDate(java.lang.String)[pri:0, instance:TestCases.SetDate@72d818d1]" name="setCheckInDate" duration-ms="19086" started-at="2017-11-08T16:35:23Z" finished-at="2017-11-08T16:35:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30-March-2018]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCheckInDate -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:TestCases.SetDate@72d818d1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-08T16:35:23Z" finished-at="2017-11-08T16:35:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.SetDate.setCheckInDate(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestCases.SetDate@72d818d1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-08T16:35:42Z" finished-at="2017-11-08T16:35:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setCheckInDate status=SUCCESS method=SetDate.setCheckInDate(java.lang.String)[pri:0, instance:TestCases.SetDate@72d818d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCases.SetDate@72d818d1]" name="afterClass" is-config="true" duration-ms="3803" started-at="2017-11-08T16:35:42Z" finished-at="2017-11-08T16:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCases.SetDate -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
